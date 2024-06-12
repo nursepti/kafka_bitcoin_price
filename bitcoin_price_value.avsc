@@ -1,0 +1,23 @@
+{
+  "namespace": "com.putri.bitcoin",
+  "type": "record",
+  "name": "BitcoinPrice",
+  "fields": [
+    {
+      "name": "Date",
+      "type": "string"
+    },
+    {
+      "name": "Open",
+      "type": "float"
+    },
+    {
+      "name": "High",
+      "type": "float"
+    },
+    {
+      "name": "MarketCap",
+      "type": "string"
+    }
+  ]
+}
